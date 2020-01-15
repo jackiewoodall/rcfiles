@@ -71,3 +71,21 @@ set ruler
 set ignorecase
 set mouse=a
 
+"insert mode scrolling
+inoremap <C-E> <C-X><C-E>
+inoremap <C-Y> <C-X><C-Y>
+
+" spelling
+map s :setlocal spell spelllang=en_us<CR>
+map ] ]S
+map [ [S
+
+" tabs
+map 1 1gt
+map 2 2gt
+map 3 3gt
+map 4 4gt
+map , :tabp<CR>
+map . :tabn<CR>
+
+map w :w<CR>
