@@ -71,6 +71,10 @@ set ruler
 set ignorecase
 set mouse=a
 
+filetype indent on
+set cindent shiftwidth=4
+set expandtab
+
 "insert mode scrolling
 inoremap <C-E> <C-X><C-E>
 inoremap <C-Y> <C-X><C-Y>
