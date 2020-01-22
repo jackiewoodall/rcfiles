@@ -93,3 +93,6 @@ map , :tabp<CR>
 map . :tabn<CR>
 
 map w :w<CR>
+
+map / :noh<CR>
+
