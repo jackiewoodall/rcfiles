@@ -79,20 +79,17 @@ set expandtab
 inoremap <C-E> <C-X><C-E>
 inoremap <C-Y> <C-X><C-Y>
 
-" spelling
-map s :setlocal spell spelllang=en_us<CR>
-map ] ]S
-map [ [S
-
 " tabs
-map 1 1gt
-map 2 2gt
-map 3 3gt
-map 4 4gt
-map , :tabp<CR>
-map . :tabn<CR>
+map <Esc>1 1gt
+map <Esc>2 2gt
+map <Esc>3 3gt
+map <Esc>4 4gt
+map <Esc>, :tabp<CR>
+map <Esc>. :tabn<CR>
 
-map w :w<CR>
+map <Esc>w :w<CR>
 
-map / :noh<CR>
+map <Esc>/ :noh<CR>
 
+" spelling
+map <Esc>s :setlocal spell spelllang=en_us<CR>
