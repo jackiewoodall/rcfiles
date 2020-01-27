@@ -93,3 +93,6 @@ map <Esc>/ :noh<CR>
 
 " spelling
 map <Esc>s :setlocal spell spelllang=en_us<CR>
+map <Esc>} ]S
+map <Esc>{ [S
+
